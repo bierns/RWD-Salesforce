@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    gap: 150px;
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h1 {
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+footer .person {
+    margin-top: 35px;
+    color: #01E4CA;
+    font-size: large;
+}
