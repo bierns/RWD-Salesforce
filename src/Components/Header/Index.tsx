@@ -1,4 +1,4 @@
-import "./style.css"
+import "./Style.css"
 import salesLogo from "../../assets/Salesforce.com_logo.png"
 const Header = () => {
    return (

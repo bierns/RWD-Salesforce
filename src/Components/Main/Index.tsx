@@ -1,4 +1,4 @@
-import "./style.css"
+import "./Style.css"
 import imgNot from "../../assets/imgnotfund.png"
 
 
