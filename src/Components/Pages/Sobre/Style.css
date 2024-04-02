@@ -1,0 +1,26 @@
+/* src/pages/SalesforcePage.css */
+
+.salesforce-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.salesforce-content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #C1D3DA;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.salesforce-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.salesforce-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}

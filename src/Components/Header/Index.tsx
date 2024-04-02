@@ -1,5 +1,6 @@
 import "./Style.css"
 import salesLogo from "../../assets/Salesforce.com_logo.png"
+import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header>
@@ -13,10 +14,10 @@ const Header = () => {
                 </div>
 
                 <nav>
-                    <button>Home</button>
-                    <button>Login</button>
-                    <button>Sobre</button>
-                    <button>Contato</button>
+                    <Link to="/">Home</Link>
+                    <Link to="/login">Login</Link>
+                    <Link to="/sobre">Sobre</Link>
+                    <Link to="/equipe">Equipe</Link>
                 </nav>
             </div>
         </header>
