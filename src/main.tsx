@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Header from './Components/Header/Index.tsx'
 import Home from './Components/Pages/Home/Index.tsx'
+import Contrate from './Components/Pages/Contrate/Index.tsx'
 import Login from './Components/Pages/Login/Index.tsx'
 import Sobre from './Components/Pages/Sobre/Index.tsx'
 import Equipe from './Components/Pages/Equipe/Index.tsx'
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
+          <Route path="contrate" element={<Contrate />} />
           <Route path="login" element={<Login />} />
           <Route path="sobre" element={<Sobre />} />
           <Route path="equipe" element={<Equipe />} />

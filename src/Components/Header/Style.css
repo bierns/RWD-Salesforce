@@ -46,6 +46,7 @@ nav {
     align-items: center;
     margin: 1vh;
     position: relative;
+    margin-right: 30px;
 
 }
 
@@ -65,4 +66,8 @@ a {
     height: 90%;
     margin-right: 12px;
 }
+
+nav a:hover{
+    background-color: #0077B6;
+} 
 
