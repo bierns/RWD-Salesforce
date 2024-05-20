@@ -1,0 +1,50 @@
+.contrate-container {
+    display: grid;
+    justify-content: center;
+    gap: 1.5vh;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding: 25px;
+    background-color: #c1d3de;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.selected-product {
+    width: 50vw;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+.btn {
+    background-color: #00a2e1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    padding: 25px;
+    background-color: #c1d3de;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+    margin: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contact-form .btn {
+    width: 25vw;
+}
